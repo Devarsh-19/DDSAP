@@ -1,7 +1,3 @@
-# DDSAP
-Daily DSA Problem Solving
-
-
 ## 🔵 Level 1: Foundations (Beginner Basics)
 
 ### Maths Basics
