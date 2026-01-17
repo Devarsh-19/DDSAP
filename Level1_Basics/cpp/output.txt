@@ -1,6 +1,1 @@
-* 
-* * 
-* * * 
-* * * * 
-* * * * * 
-* * * * * * 
+Input a number: Is Prime: 0

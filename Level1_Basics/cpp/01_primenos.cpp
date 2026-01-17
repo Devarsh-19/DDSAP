@@ -15,7 +15,7 @@ bool checkPrime(int n) {
 }
 
 int main() {
-    int a;
+    int a; 
     cout << "Input a number: ";
     cin >> a;
 
