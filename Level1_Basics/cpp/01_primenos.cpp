@@ -16,7 +16,6 @@ bool checkPrime(int n) {
 
 int main() {
     int a; 
-    cout << "Input a number: ";
     cin >> a;
 
     cout << "Is Prime: " << checkPrime(a) << endl;
