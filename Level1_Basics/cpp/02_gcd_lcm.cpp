@@ -2,7 +2,7 @@
 using namespace std;
 
 // approach 1: brute force
-bool checkPrime(int n) {
+bool gcd(int n) {
     if (n <= 1) return false;
     if (n == 2) return true;
 
@@ -18,6 +18,6 @@ int main() {
     int a; 
     cin >> a;
 
-    cout << "Is Prime: " << checkPrime(a) << endl;
+    cout << "GDC: "<< gcd(a) << endl;
     return 0;
 }
