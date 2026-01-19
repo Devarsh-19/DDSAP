@@ -1,1 +1,1 @@
-Input a number: Is Prime: 0
+Is Prime: 1
