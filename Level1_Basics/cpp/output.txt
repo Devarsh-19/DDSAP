@@ -1,1 +1,1 @@
-Is Prime: 1
+No of digits: 5
