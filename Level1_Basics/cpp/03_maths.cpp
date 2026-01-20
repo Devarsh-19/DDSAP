@@ -1,30 +1,25 @@
 #include <iostream>
-#include <Bits.h>
+#include <cmath>
 using namespace std;
 
 int count_1(int n){
+    if (n == 0) return 1;
+
     int count = 0;
     while(n > 0){
         int tmp = n % 10;
         count++;
-        n = n/10;
+        n /= 10;
     }
     return count;
 }
 
 int count_2(int n){
-    int count = (int) log10(n);
-}
-int count_1(int n){
-    int count = 0;
-    while(n > 0){
-        int tmp = n % 10;
-        count++;
-        n = n/10;
-    }
-    return count;
+    if (n == 0) return 1;
+    return (int) (log10(n) + 1);
 }
 
+// main
 int main() {
     int a; 
     cin >> a;
